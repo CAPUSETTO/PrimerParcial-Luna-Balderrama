@@ -1,3 +1,25 @@
+/*Ejercicio 7: Turnos de un Consultorio
+● Consigna:
+○ Crear una clase Turno con los atributos privados: paciente (String), hora
+(int, de 8 a 18) y confirmado (boolean).
+○ Implementar un constructor que reciba paciente y hora. Si la hora está fuera
+del rango, asignar 8. El turno comienza sin confirmar.
+
+○ Implementar confirmar() y cancelar(), que cambien el estado del turno.
+○ Implementar reprogramar(int nuevaHora), que cambie la hora solo si está
+dentro del rango permitido y el turno no fue confirmado.
+○ Implementar String obtenerDescripcion(), que retorne un texto con el
+paciente, la hora y el estado.
+○ En el main, pedir por consola (con Scanner) el paciente y la hora de dos
+turnos, confirmar uno, intentar reprogramar ambos con una nueva hora
+ingresada por el usuario y mostrar las descripciones.
+
+● Para Git:
+○ Crear la rama feature/turnos.
+○ Hacer el merge de la rama a main una vez finalizado el ejercicio.
+
+*/
+
 import java.util.Scanner;
 
 public class main {
